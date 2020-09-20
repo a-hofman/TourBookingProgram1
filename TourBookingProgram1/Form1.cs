@@ -61,7 +61,7 @@ namespace TourBookingProgram1
 
         private string TourDescriptionLine()
         {
-            string Tour = "A " + TourType() + " tour for " + TourNumberOfPeople() + " will cost you " + TourTotalCostString() + ".\nTo add this to your booking click Add Booking.";
+            string Tour = "A special " + TourType() + " tour for " + TourNumberOfPeople() + " will cost you " + TourTotalCostString() + ".\nTo add this to your booking click Add Booking.";
 
             return Tour;
         }
